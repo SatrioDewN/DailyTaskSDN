@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDW_1-01_Register using valid data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1e3c56e-ebca-4177-8a17-d25cfa4afd69</testCaseGuid>
+</TestCaseEntity>
