@@ -17,3 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.Url)
+
+WebUI.click(findTestObject('Object Repository/Website/Home Page/Button_Buat Akun'))
+
+WebUI.setText(findTestObject('Website/Make Account Page/Field_Name'), GlobalVariable.RegisterNama)
+
+WebUI.setText(findTestObject('Website/Make Account Page/Field_Birth Date'), GlobalVariable.RegisterTanggalLahir)
+
+WebUI.setText(findTestObject('Website/Make Account Page/Field_Email'), GlobalVariable.RegisterEmail)
+
+WebUI.setText(findTestObject('Website/Make Account Page/Field_Whatsapp'), GlobalVariable.RegisterWhatsapp)
+
+WebUI.setText(findTestObject('Website/Make Account Page/Field_Password'), GlobalVariable.RegisterPassword)
+
+WebUI.setText(findTestObject('Website/Make Account Page/Field_Password Confirmation'), GlobalVariable.RegisterPassword)
+
+WebUI.click(findTestObject('Website/Make Account Page/Checkbox_Terms and condition'))
+
+WebUI.click(findTestObject('Website/Make Account Page/Button_Daftar'))
+
+WebUI.verifyElementText(findTestObject('Website/Verification Email Page/Text_Verifikasi Email'), 'Verifikasi Email')
+
+WebUI.closeBrowser()
+

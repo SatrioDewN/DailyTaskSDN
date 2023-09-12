@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CDW_1-01_Login using valid data</name>
+   <name>CDW_1-05_Register number morethan 12 number</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f1e3c56e-ebca-4177-8a17-d25cfa4afd69</testCaseGuid>
+   <testCaseGuid>28e8ed68-21d1-4bd0-95c6-e884ac5fd22d</testCaseGuid>
 </TestCaseEntity>
