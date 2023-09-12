@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDW_1-03_Register using more than 30 character</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a1a7057-1286-49fe-884f-94d9eae59567</testCaseGuid>
+</TestCaseEntity>

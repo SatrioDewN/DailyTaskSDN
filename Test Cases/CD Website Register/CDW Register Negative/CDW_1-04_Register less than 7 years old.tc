@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CDW_1-04_Register less than 7 years old</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2db4de18-d5b2-4d07-821e-2fd4522b6320</testCaseGuid>
+</TestCaseEntity>
