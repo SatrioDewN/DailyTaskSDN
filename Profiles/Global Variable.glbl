@@ -69,4 +69,9 @@
       <initValue>'Workinghour1!'</initValue>
       <name>LoginPassword</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\Users\\bsi80195\\OneDrive - PT. Berlian Sistem Informasi\\Documents\\Foto\\Foto1.jpeg'</initValue>
+      <name>Foto</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
