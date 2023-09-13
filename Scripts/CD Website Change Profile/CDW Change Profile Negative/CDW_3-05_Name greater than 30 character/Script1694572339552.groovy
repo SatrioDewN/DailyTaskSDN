@@ -37,11 +37,11 @@ WebUI.click(findTestObject('Object Repository/Website/Page_Coding.ID - Dashboard
 
 WebUI.click(findTestObject('Object Repository/Website/My Profile Page/a_Edit Profile'))
 
-WebUI.setText(findTestObject('Object Repository/Website/My Profile Page/input_Fullname_name'), '')
+WebUI.setText(findTestObject('Object Repository/Website/My Profile Page/input_Fullname_name'), 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq')
 
 WebUI.click(findTestObject('Object Repository/Website/My Profile Page/button_Save Changes'))
 
-WebUI.verifyElementText(findTestObject('Website/My Profile Page/strong_The name field is required'), 'The name field is required.')
+WebUI.verifyElementText(findTestObject('Website/My Profile Page/strong_greater than 30 characters'), 'The name may not be greater than 30 characters.')
 
 WebUI.closeBrowser()
 

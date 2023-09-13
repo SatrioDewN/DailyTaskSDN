@@ -37,11 +37,11 @@ WebUI.click(findTestObject('Object Repository/Website/Page_Coding.ID - Dashboard
 
 WebUI.click(findTestObject('Object Repository/Website/My Profile Page/a_Edit Profile'))
 
-WebUI.setText(findTestObject('Object Repository/Website/My Profile Page/input_Fullname_name'), '')
+WebUI.setText(findTestObject('Website/My Profile Page/input_Phone_whatsapp'), '1')
 
 WebUI.click(findTestObject('Object Repository/Website/My Profile Page/button_Save Changes'))
 
-WebUI.verifyElementText(findTestObject('Website/My Profile Page/strong_The name field is required'), 'The name field is required.')
+WebUI.verifyElementText(findTestObject('Website/My Profile Page/between 10 and 12 digits'), 'The whatsapp must be between 10 and 12 digits.')
 
 WebUI.closeBrowser()
 
