@@ -59,4 +59,24 @@
       <initValue>'123123123123123'</initValue>
       <name>RegisterNumermorethan12number</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'leonleigard@gmail.com'</initValue>
+      <name>LoginEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Workinghour1!'</initValue>
+      <name>LoginPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\Users\\bsi80195\\OneDrive - PT. Berlian Sistem Informasi\\Documents\\QA Engineer Coding.ID\\Day 13 Data Driven Testing\\My Daily Task\\Foto\\Foto1.jpeg'</initValue>
+      <name>Foto</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Website Foto').getValue(3, 1)</initValue>
+      <name>FotoExcel</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

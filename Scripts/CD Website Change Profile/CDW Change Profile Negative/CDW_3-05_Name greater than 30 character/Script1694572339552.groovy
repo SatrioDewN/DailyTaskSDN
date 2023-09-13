@@ -23,9 +23,25 @@ WebUI.navigateToUrl('https://demo-app.online/')
 
 WebUI.click(findTestObject('Website/Home Page/Button_Masuk_Header'))
 
-WebUI.click(findTestObject('Website/Login Page/Button_Buat akun'))
+WebUI.setText(findTestObject('Website/Login Page/Field_Email'), 'leonleigard@gmail.com')
 
-WebUI.verifyElementText(findTestObject('Website/Make Account Page/Text_Buat Akun Baru'), 'Buat Akun Baru')
+WebUI.setText(findTestObject('Website/Login Page/Field_Password'), 'Workinghour1!')
+
+WebUI.click(findTestObject('Website/Login Page/Button_Login'))
+
+WebUI.click(findTestObject('Website/Home after Login Page/Symbol_Profile'))
+
+WebUI.click(findTestObject('Website/Home after Login Page/Button_My Account'))
+
+WebUI.click(findTestObject('Website/Dashboard Page/Button_Profil'))
+
+WebUI.click(findTestObject('Object Repository/Website/My Profile Page/Button_Edit Profile'))
+
+WebUI.setText(findTestObject('Object Repository/Website/My Profile Page/Field_Fullname Profile'), 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq')
+
+WebUI.click(findTestObject('Website/My Profile Page/Button_Save Changes'))
+
+WebUI.verifyElementText(findTestObject('Website/My Profile Page/Text_Greater than 30 characters'), 'The name may not be greater than 30 characters.')
 
 WebUI.closeBrowser()
 
