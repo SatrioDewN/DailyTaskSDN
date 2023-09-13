@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Website/Dashboard Page/Button_Profil'))
 
 WebUI.click(findTestObject('Object Repository/Website/My Profile Page/Button_Edit Profile'))
 
-WebUI.uploadFile(findTestObject('Website/My Profile Page/Button_Change Photo'), 'D:\\Users\\bsi80195\\OneDrive - PT. Berlian Sistem Informasi\\Documents\\Foto\\Foto1.jpeg')
+WebUI.uploadFile(findTestObject('Website/My Profile Page/Button_Change Photo'), 'D:\\Users\\bsi80195\\OneDrive - PT. Berlian Sistem Informasi\\Documents\\QA Engineer Coding.ID\\Day 13 Data Driven Testing\\My Daily Task\\Foto\\Foto1.jpeg')
 
 WebUI.click(findTestObject('Website/My Profile Page/Button_Save Changes'))
 
