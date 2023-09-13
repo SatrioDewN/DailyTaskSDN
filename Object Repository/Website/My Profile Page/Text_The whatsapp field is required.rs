@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>strong_The whatsapp field is required</name>
+   <name>Text_The whatsapp field is required</name>
    <tag></tag>
    <elementGuidId>7b2ba8fb-e205-4165-a3d9-fb39c9b4a23a</elementGuidId>
    <selectorCollection>

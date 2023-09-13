@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>strong_The name field is required</name>
+   <name>Text_The name field is required</name>
    <tag></tag>
    <elementGuidId>3071e7de-59f1-4955-bf5a-00ea0f1ee56c</elementGuidId>
    <selectorCollection>

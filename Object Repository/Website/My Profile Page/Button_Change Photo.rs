@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_L_avatar-icon</name>
+   <name>Button_Change Photo</name>
    <tag></tag>
    <elementGuidId>2dfa8c92-4b8c-4c49-93c0-afe124f6b86c</elementGuidId>
    <selectorCollection>

@@ -29,19 +29,19 @@ WebUI.setText(findTestObject('Website/Login Page/Field_Password'), 'Workinghour1
 
 WebUI.click(findTestObject('Website/Login Page/Button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Website/Page_Be a Profressional Talent with Coding.ID/i_Kontak_fas fa-user-alt'))
+WebUI.click(findTestObject('Website/Home after Login Page/Symbol_Profile'))
 
-WebUI.click(findTestObject('Object Repository/Website/Page_Be a Profressional Talent with Coding.ID/a_My Account'))
+WebUI.click(findTestObject('Website/Home after Login Page/Button_My Account'))
 
-WebUI.click(findTestObject('Object Repository/Website/Page_Coding.ID - Dashboard/a_Profil'))
+WebUI.click(findTestObject('Website/Dashboard Page/Button_Profil'))
 
-WebUI.click(findTestObject('Object Repository/Website/My Profile Page/a_Edit Profile'))
+WebUI.click(findTestObject('Object Repository/Website/My Profile Page/Button_Edit Profile'))
 
-WebUI.setText(findTestObject('Website/My Profile Page/input_Phone_whatsapp'), '1')
+WebUI.setText(findTestObject('Website/My Profile Page/Field_Phone Whatsapp Profile'), '1')
 
-WebUI.click(findTestObject('Object Repository/Website/My Profile Page/button_Save Changes'))
+WebUI.click(findTestObject('Website/My Profile Page/Button_Save Changes'))
 
-WebUI.verifyElementText(findTestObject('Website/My Profile Page/between 10 and 12 digits'), 'The whatsapp must be between 10 and 12 digits.')
+WebUI.verifyElementText(findTestObject('Website/My Profile Page/Text_between 10 and 12 digits'), 'The whatsapp must be between 10 and 12 digits.')
 
 WebUI.closeBrowser()
 

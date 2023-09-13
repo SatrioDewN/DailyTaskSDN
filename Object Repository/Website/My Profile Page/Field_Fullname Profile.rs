@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Fullname_name</name>
+   <name>Field_Fullname Profile</name>
    <tag></tag>
    <elementGuidId>b7213d36-12e3-42a3-b687-db7dedad20e5</elementGuidId>
    <selectorCollection>

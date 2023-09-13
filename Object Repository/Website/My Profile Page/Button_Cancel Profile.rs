@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Cancel</name>
+   <name>Button_Cancel Profile</name>
    <tag></tag>
    <elementGuidId>020b0481-badf-4c6d-923a-c3f236ce2fc0</elementGuidId>
    <selectorCollection>

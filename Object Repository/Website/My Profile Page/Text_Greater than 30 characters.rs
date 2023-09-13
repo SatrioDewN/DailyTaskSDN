@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>strong_greater than 30 characters</name>
+   <name>Text_Greater than 30 characters</name>
    <tag></tag>
    <elementGuidId>092a0ae0-72af-48b7-b33f-d859bfce1e6a</elementGuidId>
    <selectorCollection>

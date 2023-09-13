@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Kontak_fas fa-user-alt</name>
+   <name>Symbol_Profile</name>
    <tag></tag>
    <elementGuidId>024df717-2a4c-4219-8cfb-2ec6f2a0702a</elementGuidId>
    <selectorCollection>

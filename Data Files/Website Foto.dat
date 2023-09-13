@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>7fc6626c-2d9a-4fd8-935f-7e935659c2a5</dataFileGUID>
-   <dataSourceUrl>D:\Users\bsi80195\OneDrive - PT. Berlian Sistem Informasi\Documents\File Excel\File Excel.xlsx</dataSourceUrl>
+   <dataSourceUrl>D:\Users\bsi80195\OneDrive - PT. Berlian Sistem Informasi\Documents\Foto\File Excel.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

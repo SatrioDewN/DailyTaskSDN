@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>between 10 and 12 digits</name>
+   <name>Text_between 10 and 12 digits</name>
    <tag></tag>
    <elementGuidId>e5d63dd9-e993-4f8f-b78d-b9193861d3c8</elementGuidId>
    <selectorCollection>
