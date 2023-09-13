@@ -59,4 +59,14 @@
       <initValue>'123123123123123'</initValue>
       <name>RegisterNumermorethan12number</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'leonleigard@gmail.com'</initValue>
+      <name>LoginEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Workinghour1!'</initValue>
+      <name>LoginPassword</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
