@@ -74,4 +74,9 @@
       <initValue>'D:\\Users\\bsi80195\\OneDrive - PT. Berlian Sistem Informasi\\Documents\\Foto\\Foto1.jpeg'</initValue>
       <name>Foto</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Website Foto').getValue(3, 1)</initValue>
+      <name>FotoExcel</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
