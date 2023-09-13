@@ -19,13 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.click(findTestObject('Website/Home Page/Button_Masuk_Header'))
 
-WebUI.click(findTestObject('Website/Login Page/Button_Buat akun'))
+WebUI.setText(findTestObject('Website/Login Page/Field_Email'), GlobalVariable.LoginEmail)
 
-WebUI.verifyElementText(findTestObject('Website/Make Account Page/Text_Buat Akun Baru'), 'Buat Akun Baru')
+WebUI.setText(findTestObject('Website/Login Page/Field_Password'), GlobalVariable.LoginPassword)
+
+WebUI.click(findTestObject('Website/Login Page/Button_Login'))
+
+WebUI.click(findTestObject('Website/Home after Login Page/Symbol_Profile'))
+
+WebUI.click(findTestObject('Website/Home after Login Page/Button_My Account'))
+
+WebUI.click(findTestObject('Website/Dashboard Page/Button_Profil'))
+
+WebUI.click(findTestObject('Object Repository/Website/My Profile Page/Button_Edit Profile'))
+
+WebUI.uploadFile(findTestObject('Website/My Profile Page/Button_Change Photo'), GlobalVariable.Foto)
+
+WebUI.click(findTestObject('Website/My Profile Page/Button_Save Changes'))
+
+WebUI.verifyElementText(findTestObject('Website/My Profile Page/Text_Berhasil'), 'Berhasil')
+
+WebUI.click(findTestObject('Website/My Profile Page/Button_OK'))
 
 WebUI.closeBrowser()
 

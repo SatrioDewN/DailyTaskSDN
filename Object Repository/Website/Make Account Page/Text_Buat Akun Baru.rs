@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Verify_Buat Akun Baru</name>
+   <name>Text_Buat Akun Baru</name>
    <tag></tag>
    <elementGuidId>4fb3f2c4-3022-483d-a6f8-27e5bf240b14</elementGuidId>
    <selectorCollection>
